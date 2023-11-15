@@ -8,21 +8,22 @@ Instagram produces a wealth of data daily. Content creators keenly analyze engag
 
 # Dataset and Data Source
 
-The Instagram Data was collected from the Keggle and the dataset contain features such as: 
-
-Impressions: Number of impressions in a post (Reach)
-From Home: Reach from home
-From Hashtags: Reach from Hashtags
-From Explore: Reach from Explore
-From Other: Reach from other sources
-Saves: Number of saves
-Comments: Number of comments
-Shares: Number of shares
-Likes: Number of Likes
-Profile Visits: Numer of profile visits from the post
-Follows: Number of Follows from the post
-Caption: Caption of the post
-Hashtags: Hashtags used in the post
+The Instagram Data was collected from the Keggle and the dataset contains features such as: Impressions, From Home, From Hashtags, From Explore, From Other, Saves, Comments, Shares, Likes, Profile Visits, Follows, Caption, Hashtags
 
 
-Conduct exploratory analysis to identify post categories with high engagement, understand posting frequency impact, and provide insights for informed decision-making in content creation.
+# Importing Python Libraries and Datasets
+
+Here, I incorporated essential Python libraries, including Pandas, Matplotlib, and Seaborn. Additionally, I imported the dataset crucial for my exploratory analysis, laying the foundation for further examination and insights.
+
+# Exploratory Data Analysis 
+
+In this section, I conduct an initial exploratory analysis of the imported dataset, focusing on the following steps before delving into the main features:
+
+1. Inspect the initial five rows of the data with `data.head()`.
+2. Survey all the columns within the dataset using `data.columns`.
+3. Examine column details through `data.info()`.
+4. Assess descriptive statistics via `data.describe()`.
+5. Verify the existence of any missing values using `data.isnull().sum()`.
+
+
+
