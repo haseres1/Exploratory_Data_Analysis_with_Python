@@ -35,7 +35,14 @@ Next, I delved into the columns containing information about reach. Specifically
 6. Relationship between the number of profile visits and follows
 7. Correlation between all the features
 
-# Summary
+# Insights and Recommendations
+
+1. Most Instagram posts had impressions between 0 and 9999.
+2. Save and like metrics are higher than follow metrics, suggesting more people save and like content than follow. Recommend adding a call to action for follows.
+3. The majority of interactions are from the Instagram homepage, not external sources like hashtags or explore.
+4. Fewer comments and shares compared to likes and saves. Suggest adding a call to action in each post.
+5. Profile visits are higher with fewer followers, indicating gained credibility over time.
+6. Strong correlations exist between columns in the dataset.
 
 
 
