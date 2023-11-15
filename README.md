@@ -8,7 +8,7 @@ Instagram produces a wealth of data daily. Content creators keenly analyze engag
 
 # Dataset and Data Source
 
-The Instagram Data was collected from the Keggle and the dataset contains features such as Impressions, From Home, From Hashtags, From Explore, From Other, Saves, Comments, Shares, Likes, Profile Visits, Follows, Caption, Hashtags
+The Instagram Data was collected from the Keggle and the dataset contains columns such as Impressions, From Home, From Hashtags, From Explore, From Other, Saves, Comments, Shares, Likes, Profile Visits, Follows, Caption, Hashtags
 
 
 # Importing Python Libraries and Datasets
@@ -17,7 +17,7 @@ Here, I incorporated essential Python libraries, including Pandas, Matplotlib, a
 
 # Exploratory Data Analysis 
 
-In this section, I conduct an initial exploratory analysis of the imported dataset, focusing on the following steps before delving into the main features:
+In this section, I conduct an initial exploratory analysis of the imported dataset, focusing on the following steps before delving into exploring the dataset columns:
 
 1. Inspect the initial five rows of the data with `data.head()`.
 2. Survey all the columns within the dataset using `data.columns`.
@@ -25,13 +25,18 @@ In this section, I conduct an initial exploratory analysis of the imported datas
 4. Assess descriptive statistics via `data.describe()`.
 5. Verify the existence of any missing values using `data.isnull().sum()`.
 
-Next, I delved into the feature containing information about reach. Specifically, I focused on the 'Impressions' column, which holds data about the reach of an Instagram post. I conducted an exploration of the following features:
+Next, I delved into the columns containing information about reach. Specifically, I focused on the 'Impressions' column, which holds data about the reach of an Instagram post. I conducted the following exploratory analysis of the dataset:
 
 1. Distribution of the Instagram account Impressions
 2. Number of impressions on each post over time
 3. Metrics like Likes, Saves, and Follows from each post over time
 4. Distribution of reach from different sources such as From Home, From Hashtags, From Explore, From Other columns
 5. Distribution of engagement sources such as Saves, Comments, Shares, Likes
+6. Relationship between the number of profile visits and follows
+7. Correlation between all the features
+
+# Summary
+
 
 
 
